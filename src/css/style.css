@@ -1,0 +1,84 @@
+.card-cirle{
+    text-align:center;
+    background: black;    
+    border:10px solid transparent;
+    color:#fff;
+    padding: 30px;
+    border-radius:50%;
+    width: 180px;
+    max-width: 100%;
+}
+
+.btn-circle{
+    text-align:center;
+    border-radius:50%;
+    width: 50px;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.bg-card-dark{
+    background: #2f353b;
+    border-radius: 20px;
+}
+
+.content4{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 65px;
+    margin-left: 95px;
+}
+
+.card1{
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem;
+    width: 790px;
+    height: 650px;
+    border-top-left-radius: 38%;
+}
+
+.card-title1{
+    margin-top: 130px;
+}
+
+.card-big{
+    background-color:#fff;
+    background-clip:border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius:.25rem;
+    width: 1425px;
+    margin-left: -65px;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    margin-top: -120px;
+    height: 550px;
+}
+
+.card-buy-bg{
+    background: #2f353b;
+    border-radius: 20px;
+}
+
+.back{
+    margin-left: -5px;
+    margin-top: 400px;
+    width: 1425px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .card1 {
+        width: 100%;
+        margin-top: -30px;
+        height: 550px;
+    }
+    .content4{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .card-title1{
+        margin-top: 40px;
+    }
+}
